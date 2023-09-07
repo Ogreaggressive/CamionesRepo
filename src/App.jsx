@@ -3,12 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TopNavigationBar from './components/menu/topNavigationBar'
+import MonthMenu from './components/menu/monthMenu'
+import MoneyDisplay from './components/menu/moneyDisplay'
+import Dashboard from './components/menu/Dashboard'
 
 function App() {
   return (
     <div className="App">
       <TopNavigationBar />
-      {/* Aquí puedes agregar el contenido de tu página */}
+      <MonthMenu />
+      <MoneyDisplay/>
+      <Dashboard/>
     </div>
   );
 }
