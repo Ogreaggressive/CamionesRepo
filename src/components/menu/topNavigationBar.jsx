@@ -1,24 +1,23 @@
 import React from 'react';
 import useStyles from './topNavigationBarStyles';
+import { useNavigate } from 'react-router-dom';
 
 const TopNavigationBar = () => {
     const classes = useStyles();
+    const navigateTo = useNavigate();
 
-  // Agregamos enlaces ficticios (recuerda descomentarlos cuando implementes las páginas)
-  const handleViajesClick = () => {
-    // Aquí podrías navegar a la página de Viajes en Curso
-    // Por ejemplo: history.push('/viajes-en-curso')
-  };
-
-  const handleInventarioClick = () => {
-    // Aquí podrías navegar a la página de Inventario
-    // Por ejemplo: history.push('/inventario')
-  };
-
-  const handleEstadisticasClick = () => {
-    // Aquí podrías navegar a la página de Estadísticas
-    // Por ejemplo: history.push('/estadisticas')
-  };
+    const handleViajesClick = () => {
+     
+      navigateTo('/viajesEnCurso')
+    };
+    
+    const handleInventarioClick = () => {
+      navigateTo('/inventario')
+    };
+    
+    const handleEstadisticasClick = () => {
+      navigateTo('/')
+    };
   
   return (
     <div className={classes.topNav}>
