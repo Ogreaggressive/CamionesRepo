@@ -2,13 +2,14 @@ import React from 'react';
 import TopNavigationBar from '../components/menu/topNavigationBar'
 import InventarioMenu from '../components/inventario/inventarioMenu';
 
-const Inventario = () => {
+const AgregarPagoMensual = () => {
   return (
     <div>
     <TopNavigationBar />
     <InventarioMenu />
+    ag pago mensual
     </div>
   );
 }
 
-export default Inventario;
+export default AgregarPagoMensual;
