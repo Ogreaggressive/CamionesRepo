@@ -4,6 +4,7 @@ import TopNavigationBar from '../components/menu/topNavigationBar';
 import Viaje from '../components/viajes/viaje';
 import ViajesContainer from '../components/viajes/viajesContainer';
 
+
 const ViajesEnCurso = () => {
   return (
     <div>
