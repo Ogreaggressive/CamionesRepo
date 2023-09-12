@@ -13,6 +13,8 @@ import Camiones from './pages/camiones';
 import Documentos from './pages/documentos';
 import PagosMensuales from './pages/pagosMensuales';
 
+import GastosCamion from './pages/gastosCamion';
+
 const AppRouter = () => {
   return (
     <Router>
@@ -29,6 +31,8 @@ const AppRouter = () => {
         <Route path='/camiones' element={<Camiones/>} />
         <Route path='/documentos' element={<Documentos/>} />
         <Route path='/pagosmensuales' element={<PagosMensuales/>} />
+
+        <Route path='/gastosCamion' element={<GastosCamion />} /> 
 
         <Route path='/' element={<Estadisticas/>} />
       </Routes>
