@@ -6,7 +6,7 @@ import Inventario from './pages/Inventario';
 import NuevoViaje from './pages/nuevoViaje';
 
 import AgregarCamion from './pages/agregarCamion';
-import AgregarDocumento from './pages/AgregarDocumento';
+import AgregarDocumento from './pages/agregarDocumento';
 import AgregarPagoMensual from './pages/agregarPagoMensual';
 
 import Camiones from './pages/camiones';
