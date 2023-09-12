@@ -16,7 +16,7 @@ const TopNavigationBar = () => {
     };
     
     const handleEstadisticasClick = () => {
-      navigateTo('/CamionesRepo')
+      navigateTo('/CamionesRepo/')
     };
   
   return (
