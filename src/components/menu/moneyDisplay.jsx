@@ -4,7 +4,7 @@ import useStyles from './moneyDisplayStyles'; // Importa los estilos
 const MoneyDisplay = () => {
   const classes = useStyles(); // Utiliza los estilos
 
-  const [bolivianosValue, setBolivianosValue] = useState(1802.50);
+  const [bolivianosValue, setBolivianosValue] = useState(19525.50);
 
   // Función para cambiar el valor en bolivianos
   const changeValue = () => {

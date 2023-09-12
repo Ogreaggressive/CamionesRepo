@@ -10,7 +10,7 @@ const Dashboard = () => {
   return (
     <div className={classes.container}>
       <div className={classes.barChart}>
-        <h2>Gráfica de Barras</h2>
+        <h2>Ingreso por Camion</h2>
         <MenuBarChart/>
       </div>
       <div className={classes.listContainer}>
@@ -18,7 +18,7 @@ const Dashboard = () => {
         <ImpuestosList />
       </div>
       <div className={classes.donutChart}>
-        <h2>Gráfica de donut</h2>
+        <h2>Egreso general</h2>
         <MenuPieCharts/>
       </div>
     </div>

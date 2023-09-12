@@ -16,7 +16,7 @@ const GastosCamion = () => {
       <div style={{ display: 'flex' }}>
         <div style={{ flex: 1 }}>
           <img
-            src="src\images\camion.jpg" // Reemplaza con la ruta de tu imagen
+            src="images/camion.jpg" // Reemplaza con la ruta de tu imagen
             alt="Imagen del camión"
             style={{ maxWidth: '200px', marginRight: '20px' }}
           />
