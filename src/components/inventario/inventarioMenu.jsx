@@ -7,7 +7,10 @@ const InventarioMenu = () => {
   const location = useLocation();
   
   // Determina la página actual a partir de la ruta actual
-  const currentPage = location.pathname.split('/').filter(Boolean)[0];
+  let pageFromURL = location.pathname.split('/').filter(Boolean)[0];
+  
+  // Establece currentPage en 'camiones' si la página es 'inventario'
+  const currentPage = pageFromURL === 'inventario' ? 'camiones' : pageFromURL;
   
   // Mapea la página actual a un texto descriptivo
   const pageText = {

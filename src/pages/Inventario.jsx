@@ -7,6 +7,7 @@ const Inventario = () => {
     <div>
     <TopNavigationBar />
     <InventarioMenu />
+    camiones
     </div>
   );
 }

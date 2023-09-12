@@ -22,9 +22,9 @@ const AppRouter = () => {
         <Route path='/estadisticas' element={<Estadisticas/>} />
         <Route path='/nuevoViaje' element={<NuevoViaje/>} />
 
-        <Route path='/agregarCamion' element={<AgregarCamion/>} />
-        <Route path='/agregarDocumento' element={<AgregarDocumento/>} />
-        <Route path='/agregarPagoMensual' element={<AgregarPagoMensual/>} />
+        <Route path='/agregarcamiones' element={<AgregarCamion/>} />
+        <Route path='/agregardocumentos' element={<AgregarDocumento/>} />
+        <Route path='/agregarpagosmensuales' element={<AgregarPagoMensual/>} />
 
         <Route path='/camiones' element={<Camiones/>} />
         <Route path='/documentos' element={<Documentos/>} />
