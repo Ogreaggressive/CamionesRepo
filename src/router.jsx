@@ -34,7 +34,7 @@ const AppRouter = () => {
 
         <Route path='/gastosCamion' element={<GastosCamion />} /> 
 
-        <Route path='/camionesRepo/' element={<Estadisticas/>} />
+        <Route path='/' element={<Estadisticas/>} />
       </Routes>
     </Router>
   );
