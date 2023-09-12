@@ -43,7 +43,7 @@ const InventarioMenu = () => {
       <div className={classes.agregarButton}>
         <Link to={`/agregar${currentPage}`}>
           <button>
-            Agregar + {pageText}
+            Agregar {pageText}
           </button>
         </Link>
       </div>
