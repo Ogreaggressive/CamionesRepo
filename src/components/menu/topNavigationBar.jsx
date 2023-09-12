@@ -16,7 +16,7 @@ const TopNavigationBar = () => {
     };
     
     const handleEstadisticasClick = () => {
-      navigateTo('/')
+      navigateTo('/estadisticas')
     };
   
   return (
