@@ -6,18 +6,23 @@ import MoneyDisplay from '../components/menu/moneyDisplay';
 import Dashboard from '../components/menu/Dashboard';
 
 function Estadisticas() {
+  // Define el estado local para los ingresos mensuales
+  const [ingresosMensuales, setIngresosMensuales] = useState(0);
+
   // Define una función para actualizar los ingresos mensuales
-  const setIngresosMensuales = (nuevosIngresosMensuales) => {
-    // Puedes hacer algo con los nuevos ingresos mensuales aquí
-    console.log('Nuevos ingresos mensuales:', nuevosIngresosMensuales);
+  const actualizarIngresosMensuales = (nuevosIngresosMensuales) => {
+    setIngresosMensuales(nuevosIngresosMensuales);
   };
 
   return (
     <div>
       <TopNavigationBar />
       <MonthMenu />
-      <MoneyDisplay />
-      <Dashboard setIngresosMensuales={setIngresosMensuales} />
+      <MoneyDisplay ingresosMensuales={ingresosMensuales} />
+      <Dashboard
+        setIngresosMensuales={actualizarIngresosMensuales}
+        ingresosMensuales={ingresosMensuales}
+      />
     </div>
   );
 }
