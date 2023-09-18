@@ -21,6 +21,11 @@ const mockData = {
       { name: 'Camion 13', ganancias: 1850, perdidas: 950 },
       { name: 'Camion 14', ganancias: 2400, perdidas: 1200 },
     ],
+    mayo: [
+        { name: "Camion 12", ganancias: 2100, perdidas: 1700 },
+        { name: 'Camion 13', ganancias: 850, perdidas: 450 },
+        { name: 'Camion 14', ganancias: 3400, perdidas: 600 },
+      ],
     junio: [
       { name: "Camion 15", ganancias: 1950, perdidas: 1300 },
       { name: 'Camion 16', ganancias: 1650, perdidas: 850 },

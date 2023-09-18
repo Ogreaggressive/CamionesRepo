@@ -1,0 +1,88 @@
+const pieChartData = {
+    enero: [
+      { name: "Gasolina", value: 2400 },
+      { name: 'Mermas', value: 3567 },
+      { name: 'Viáticos', value: 1398 },
+      { name: 'Gasto Adicional', value: 2800 },
+      { name: 'Sueldos', value: 11000 },
+    ],
+    febrero: [
+      { name: "Gasolina", value: 2300 },
+      { name: 'Mermas', value: 3450 },
+      { name: 'Viáticos', value: 1412 },
+      { name: 'Gasto Adicional', value: 2700 },
+      { name: 'Sueldos', value: 10800 },
+    ],
+    marzo: [
+      { name: "Gasolina", value: 2450 },
+      { name: 'Mermas', value: 3675 },
+      { name: 'Viáticos', value: 1365 },
+      { name: 'Gasto Adicional', value: 2850 },
+      { name: 'Sueldos', value: 11250 },
+    ],
+    abril: [
+      { name: "Gasolina", value: 2375 },
+      { name: 'Mermas', value: 3550 },
+      { name: 'Viáticos', value: 1380 },
+      { name: 'Gasto Adicional', value: 2765 },
+      { name: 'Sueldos', value: 10975 },
+    ],
+    mayo: [
+      { name: "Gasolina", value: 2550 },
+      { name: 'Mermas', value: 3795 },
+      { name: 'Viáticos', value: 1320 },
+      { name: 'Gasto Adicional', value: 2975 },
+      { name: 'Sueldos', value: 11800 },
+    ],
+    junio: [
+      { name: "Gasolina", value: 2500 },
+      { name: 'Mermas', value: 3750 },
+      { name: 'Viáticos', value: 1350 },
+      { name: 'Gasto Adicional', value: 2900 },
+      { name: 'Sueldos', value: 11500 },
+    ],
+    julio: [
+      { name: "Gasolina", value: 2600 },
+      { name: 'Mermas', value: 3900 },
+      { name: 'Viáticos', value: 1300 },
+      { name: 'Gasto Adicional', value: 3050 },
+      { name: 'Sueldos', value: 12100 },
+    ],
+    agosto: [
+      { name: "Gasolina", value: 2550 },
+      { name: 'Mermas', value: 3825 },
+      { name: 'Viáticos', value: 1325 },
+      { name: 'Gasto Adicional', value: 2975 },
+      { name: 'Sueldos', value: 11850 },
+    ],
+    septiembre: [
+      { name: "Gasolina", value: 2650 },
+      { name: 'Mermas', value: 3975 },
+      { name: 'Viáticos', value: 1275 },
+      { name: 'Gasto Adicional', value: 3125 },
+      { name: 'Sueldos', value: 12450 },
+    ],
+    octubre: [
+      { name: "Gasolina", value: 2550 },
+      { name: 'Mermas', value: 3825 },
+      { name: 'Viáticos', value: 1325 },
+      { name: 'Gasto Adicional', value: 2975 },
+      { name: 'Sueldos', value: 11850 },
+    ],
+    noviembre: [
+      { name: "Gasolina", value: 2500 },
+      { name: 'Mermas', value: 3750 },
+      { name: 'Viáticos', value: 1350 },
+      { name: 'Gasto Adicional', value: 2900 },
+      { name: 'Sueldos', value: 11500 },
+    ],
+    diciembre: [
+      { name: "Gasolina", value: 2650 },
+      { name: 'Mermas', value: 3975 },
+      { name: 'Viáticos', value: 1275 },
+      { name: 'Gasto Adicional', value: 3125 },
+      { name: 'Sueldos', value: 12450 },
+    ],
+  };
+  
+  export { pieChartData };

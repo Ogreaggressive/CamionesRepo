@@ -44,11 +44,16 @@ const Dashboard = ({ setIngresosMensuales, selectedMonth }) => {
       </div>
       <div className={classes.listContainer}>
         <h2>Lista impuestos</h2>
-        <ImpuestosList setTotalImpuestos= {setImpuestos} />
+        <ImpuestosList 
+        setTotalImpuestos= {setImpuestos} 
+        selectedMonth={selectedMonth}
+        />
       </div>
       <div className={classes.donutChart}>
         <h2>Egreso general</h2>
-        <MenuPieCharts/>
+        <MenuPieCharts
+          selectedMonth={selectedMonth}
+        />
       </div>
     </div>
   );
