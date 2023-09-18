@@ -6,7 +6,7 @@ import MenuPieCharts from './graphs/PieChart';
 import ImpuestosList from './graphs/impuestosList';
 import useStyles from './DashboardStyles'; // Importa los estilos
 
-const Dashboard = ({ setIngresosMensuales }) => {
+const Dashboard = ({ setIngresosMensuales, selectedMonth }) => {
   const classes = useStyles();
   
   // Estado para almacenar los datos de MenuBarChart
@@ -37,7 +37,10 @@ const Dashboard = ({ setIngresosMensuales }) => {
     <div className={classes.container}>
       <div className={classes.barChart}>
         <h2>Ingreso por Camion</h2>
-        <MenuBarChart setIngresosPorCamion={setIngresosPorCamion} />
+        <MenuBarChart
+          setIngresosPorCamion={setIngresosPorCamion}
+          selectedMonth={selectedMonth}
+        />
       </div>
       <div className={classes.listContainer}>
         <h2>Lista impuestos</h2>
