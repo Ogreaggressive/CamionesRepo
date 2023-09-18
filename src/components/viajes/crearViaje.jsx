@@ -100,10 +100,16 @@ const CrearViaje = () => {
 
         {/* Botón Agregar */}
         <div className={classes.formItem}>
-          <button>Agregar</button>
+            <Link to="/viajesEnCurso" style={{ textDecoration: 'none', float: 'center' }}>
+            <button>
+              Agregar Viaje
+            </button>
+          </Link>
         </div>
       </form>
     </div>
+
+    
   );
 };
 
