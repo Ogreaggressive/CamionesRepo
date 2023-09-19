@@ -10,17 +10,17 @@ const PagosContainer = () => {
     {
       id: 1,
       nombre: 'Juan',
-      valorMonetario: '200 Bs.',
+      valorMonetario: '200',
     },
     {
       id: 2,
       nombre: 'María',
-      valorMonetario: '350 Bs.',
+      valorMonetario: '350',
     },
     {
       id: 3,
       nombre: 'Pedro',
-      valorMonetario: '180 Bs.',
+      valorMonetario: '180',
     },
   ];
 

@@ -11,7 +11,7 @@ const Pago = ({ nombre, valorMonetario }) => {
         <Typography variant="h5" gutterBottom>
           Pago {nombre}
         </Typography>
-        <Typography variant="body1">Valor Monetario: {valorMonetario} Bs.</Typography>
+        <Typography variant="body1">Sueldo: {valorMonetario} Bs.</Typography>
         <Button variant="contained" color="primary" className={classes.button}>
           Cambiar
         </Button>
